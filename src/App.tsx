@@ -4,7 +4,7 @@ import { Loader2, Image as ImageIcon, MonitorPlay, Speaker, Lightbulb, Keyboard,
 import { motion, AnimatePresence } from 'motion/react';
 
 // Initialize Gemini
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: import meta.env.VITE_API_KEY });
 
 const EQUIPMENT_OPTIONS = [
   { id: 'luces', label: 'Luces Móviles', icon: Lightbulb },
