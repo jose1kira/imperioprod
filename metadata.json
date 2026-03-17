@@ -1,0 +1,5 @@
+{
+  "name": "StageGen",
+  "description": "Generador de escenarios y entables audiovisuales para eventos.",
+  "requestFramePermissions": []
+}
