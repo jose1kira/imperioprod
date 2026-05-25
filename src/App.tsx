@@ -238,7 +238,7 @@ El estilo debe ser un boceto a mano alzada o un plano técnico claro (blueprint)
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === 'Andres' && password === 'aideas') {
+    if (username === 'AiDeas' && password === 'AiDeas') {
       setIsAuthenticated(true);
       setLoginError('');
     } else {
@@ -257,7 +257,7 @@ El estilo debe ser un boceto a mano alzada o un plano técnico claro (blueprint)
             <div className="w-16 h-16 bg-zinc-950 rounded-2xl flex items-center justify-center mb-5 border border-zinc-800 shadow-inner">
               <Tent className="text-indigo-500" size={32} />
             </div>
-            <h1 className="text-2xl font-bold text-white text-center tracking-tight">AiDeas para Imperio Producciones</h1>
+            <h1 className="text-2xl font-bold text-white text-center tracking-tight">AiDeas</h1>
             <p className="text-zinc-400 text-sm mt-2">Inicia sesión para continuar</p>
           </div>
 
